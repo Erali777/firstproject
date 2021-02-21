@@ -6,29 +6,20 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-	<button id="add">Add</button>
-	<button id="close">Close Add</button>
-	<button id="search">Search</button>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-	<div class="di">
-		<div>Hello!!!</div>
-		<p><input type="text" placeholder="Add Name" name="name"> Name</p>
-	    <p><input type="number" placeholder="Add Number" name="number"> Cell number</p>
-	    <p><input type="text" placeholder="Add Adress" name="adress"> Adress</p>
-	    <p><input type="text" placeholder="Add E-mail" name="mail"> E-mail</p>
-	    <button id="button">Enter</button>
+    <div>
+    	<input type="text" id="input" placeholder="Search">
+    	<div id="btn" onclick="sendApiRequest()">
+    		<span class="noselect">Giphy!</span>
+    		<div id="circle"></div>
+    	</div>
+	    
 	</div>
 
-    <div class="se">
-    	<input type="text" placeholder="Search" id="inpSearch">
-	    <button id="buttonSearch">Search</button>
-	    <button id="closeSearch">closeSearch</button>
-    </div>
 	
-
 	<script src="js.js" defer></script>
 	
-</body>
+
 </html>
